@@ -10,6 +10,20 @@
       "alignment": "left",
       "vertical_offset": 1,
       "segments": [
+                                {
+                                        "type": "session",
+                                        "style": "powerline",
+        				  "powerline_symbol": "\uE0B0",
+                                        "invert_powerline": false,
+          "foreground": "#fff",
+          "background": "#003543",
+                                        "properties": {
+                                                "display_host": true,
+                                                "prefix": "",
+                                                "user_info_separator": "",
+                                                "display_user": true
+                                        }
+                                },
         {
           "type": "os",
           "style": "powerline",
